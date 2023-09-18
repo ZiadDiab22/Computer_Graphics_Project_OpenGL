@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8238C79A-56EF-42EC-85A9-CB699D17AB14}</ProjectGuid>
+    <RootNamespace>graphics_project</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GLAUX.lib;GLU32.lib;glut.lib;OPENGL32.lib;glut32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3DTexture.cpp" />
+    <ClCompile Include="environment.cpp" />
+    <ClCompile Include="kitcheen.cpp" />
+    <ClCompile Include="Model_3DS.cpp" />
+    <ClCompile Include="PassengerTruck.cpp" />
+    <ClCompile Include="resturant.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Desktop\Skybox\counters.bmp" />
+    <Image Include="as.bmp" />
+    <Image Include="b.bmp" />
+    <Image Include="b1.bmp" />
+    <Image Include="Back.bmp" />
+    <Image Include="bb.bmp" />
+    <Image Include="blue-sofa.bmp" />
+    <Image Include="Bottom.bmp" />
+    <Image Include="box1.bmp" />
+    <Image Include="box2.bmp" />
+    <Image Include="box3.bmp" />
+    <Image Include="brick.bmp" />
+    <Image Include="brown_wood.bmp" />
+    <Image Include="bu1.bmp" />
+    <Image Include="building1.bmp" />
+    <Image Include="building2.bmp" />
+    <Image Include="b_tree.bmp" />
+    <Image Include="c2.bmp" />
+    <Image Include="chaire.bmp" />
+    <Image Include="cieling.bmp" />
+    <Image Include="colaar.bmp" />
+    <Image Include="counters.bmp" />
+    <Image Include="door.bmp" />
+    <Image Include="Doorr.bmp" />
+    <Image Include="down1.bmp" />
+    <Image Include="f.bmp" />
+    <Image Include="fasa1.bmp" />
+    <Image Include="ff.bmp" />
+    <Image Include="floor.bmp" />
+    <Image Include="fridge.bmp" />
+    <Image Include="fridge1.bmp" />
+    <Image Include="Front.bmp" />
+    <Image Include="front_train.bmp" />
+    <Image Include="f_d.bmp" />
+    <Image Include="f_s.bmp" />
+    <Image Include="f_w.bmp" />
+    <Image Include="g.bmp" />
+    <Image Include="g1.bmp" />
+    <Image Include="gps.bmp" />
+    <Image Include="gr.bmp" />
+    <Image Include="grand.bmp" />
+    <Image Include="g_tree.bmp" />
+    <Image Include="heat_map.bmp" />
+    <Image Include="images (1).bmp" />
+    <Image Include="krkra.bmp" />
+    <Image Include="l-d.bmp" />
+    <Image Include="l.bmp" />
+    <Image Include="l1.bmp" />
+    <Image Include="Left.bmp" />
+    <Image Include="lf-f.bmp" />
+    <Image Include="Luster ArteLamp Logico N260922.bmp" />
+    <Image Include="m.bmp" />
+    <Image Include="monaliza.bmp" />
+    <Image Include="pag.bmp" />
+    <Image Include="pag2.bmp" />
+    <Image Include="pag3.bmp" />
+    <Image Include="pag4.bmp" />
+    <Image Include="r-d.bmp" />
+    <Image Include="r.bmp" />
+    <Image Include="rail.bmp" />
+    <Image Include="red.bmp" />
+    <Image Include="rf-f.bmp" />
+    <Image Include="s-door.bmp" />
+    <Image Include="silver.bmp" />
+    <Image Include="silver2.bmp" />
+    <Image Include="silver_door.bmp" />
+    <Image Include="t1.bmp" />
+    <Image Include="table.bmp" />
+    <Image Include="table33.bmp" />
+    <Image Include="temp.bmp" />
+    <Image Include="Top.bmp" />
+    <Image Include="tr-b.bmp" />
+    <Image Include="u.bmp" />
+    <Image Include="up-f.bmp" />
+    <Image Include="wall.bmp" />
+    <Image Include="wall1.bmp" />
+    <Image Include="wallt.bmp" />
+    <Image Include="weather.bmp" />
+    <Image Include="yellow.bmp" />
+    <Image Include="yellow_wood.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Luster ArteLamp Logico N260922.3ds" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="environment.h" />
+    <ClInclude Include="kitcheen.h" />
+    <ClInclude Include="PassengerTruck.h" />
+    <ClInclude Include="resturant.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

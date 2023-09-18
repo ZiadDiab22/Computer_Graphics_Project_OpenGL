@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3DTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_3DS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resturant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kitcheen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PassengerTruck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="b.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="brown_wood.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="door.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="f.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="g.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="l.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="r.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="red.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="u.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="yellow.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="yellow_wood.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="floor.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wall.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="silver.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="s-door.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="tr-b.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="front_train.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="gr.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="silver_door.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="silver2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="blue-sofa.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\Skybox\counters.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="counters.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="c2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="gps.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="heat_map.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="temp.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="l-d.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="lf-f.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="r-d.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="rf-f.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="up-f.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="Luster ArteLamp Logico N260922.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="b1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="g1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="l1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="t1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="ff.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="Back.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="Bottom.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="Front.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="Left.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="Top.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="rail.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="fasa1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="monaliza.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="table33.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wallt.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="weather.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="brick.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cieling.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="as.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="chaire.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="colaar.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="down1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="fridge.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="fridge1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="grand.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="krkra.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="table.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wall1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bu1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="f_d.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="f_s.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="f_w.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="b_tree.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="building1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="building2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="g_tree.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="images (1).bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pag.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pag2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pag3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pag4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="Doorr.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bb.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="m.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Luster ArteLamp Logico N260922.3ds">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resturant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kitcheen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PassengerTruck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
